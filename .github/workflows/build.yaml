@@ -3,6 +3,7 @@ name: Build my Application
 
 on: push
 jobs:
+  build:
     name: Build your app
     runs-on: ubuntu-latest
     steps:
