@@ -13,7 +13,7 @@ jobs:
       - name: List  Current Dir
         run: ls
       - name: Check Dotnet
-        run: dotnet
+        run: dotnet build
       - name: List  Current Dir
         run: ls TrickingLibrary.API/ -R
       - name: Check NPM
