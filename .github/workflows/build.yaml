@@ -14,5 +14,7 @@ jobs:
         run: ls
       - name: Check Dotnet
         run: dotnet
+      - name: List  Current Dir
+        run: ls TrickingLibrary.API/ -R
       - name: Check NPM
-        run: npm
+        run: npm -v
